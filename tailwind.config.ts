@@ -19,9 +19,9 @@ export default {
       extend: {
       colors: {
         gold: {
-          DEFAULT: "hsl(45 70% 52%)",
-          light: "hsl(45 60% 70%)",
-          dark: "hsl(38 65% 42%)",
+          DEFAULT: "hsl(152 70% 42%)",
+          light: "hsl(152 60% 60%)",
+          dark: "hsl(145 65% 32%)",
         },
         navy: {
           DEFAULT: "hsl(220 60% 18%)",
