@@ -54,7 +54,11 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="lg:col-span-3 space-y-5"
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={(e) => {
+              e.preventDefault();
+              const msg = `الاسم: ${formData.name}%0Aالبريد: ${formData.email}%0Aالرسالة: ${formData.message}`;
+              window.open(`https://wa.me/966558046271?text=${msg}`, '_blank');
+            }}
           >
             <input
               type="text"
@@ -82,7 +86,7 @@ const ContactSection = () => {
               className="w-full gradient-gold text-secondary-foreground font-body font-bold py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 text-lg"
             >
               <Send className="w-5 h-5" />
-              أرسل رسالتك
+              أرسل عبر واتساب
             </button>
           </motion.form>
         </div>

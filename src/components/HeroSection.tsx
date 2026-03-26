@@ -38,7 +38,9 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="https://wa.me/966558046271?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block gradient-gold text-secondary-foreground font-body font-bold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
               >
                 احجز استشارتك المجانية
